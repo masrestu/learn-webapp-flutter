@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'My Balance',
+      title: 'Shopping List',
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
@@ -43,7 +43,7 @@ class _WebViewDemoState extends State<WebViewDemo> {
         onPageFinished: (url) => {},
       ))
       // ..loadRequest(Uri.parse('https:/cart.masrestu.online'));
-      ..loadRequest(Uri.parse('https:/balance.masrestu.online'));
+      ..loadRequest(Uri.parse('https:/node-shopping-list.onrender.com'));
   }
 
   @override
